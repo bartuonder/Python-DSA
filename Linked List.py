@@ -136,3 +136,54 @@ class LinkedList:
             output.append(str(temp.value))
             temp = temp.next
         return " -> ".join(output) if output else "Empty List"
+
+    def find_middle_node(self):
+        if self.head is None:
+            return None
+
+        slow = self.head
+        fast = self.head
+
+        while fast is not None and fast.next is not None:
+            slow = slow.next
+            fast = fast.next.next
+        return slow
+
+    def has_loop(self):
+        slow = self.head
+        fast = self.head
+
+        while fast is not None and fast.next is not None:
+            slow = slow.next
+            fast = fast.next.next
+
+            if slow == fast:
+                return True
+        return False
+
+    def remove_duplicates(self):
+        values = set()
+        previous = None
+        current = self.head
+
+        while current:
+            if current.value in values:
+                previous.next = current.next
+                self.length -= 1
+            else:
+                values.add(current.value)
+                previous = current
+            current = current.next
+
+def find_kth_from_end(ll, k):
+    slow = ll.head
+    fast = ll.head
+
+    for _ in range(k):
+        if fast is None:
+            return None
+        fast = fast.next
+    while fast is not None:
+        slow = slow.next
+        fast = fast.next
+    return slow

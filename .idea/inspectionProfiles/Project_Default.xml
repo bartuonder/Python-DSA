@@ -1,0 +1,102 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="asyncpg" />
+          <option value="psycopg2-binary" />
+          <option value="presidio-analyzer" />
+          <option value="presidio-anonymizer" />
+          <option value="spacy" />
+          <option value="aiosqlite" />
+          <option value="altair" />
+          <option value="annotated-doc" />
+          <option value="annotated-types" />
+          <option value="anyio" />
+          <option value="argon2-cffi" />
+          <option value="argon2-cffi-bindings" />
+          <option value="attrs" />
+          <option value="blinker" />
+          <option value="cachetools" />
+          <option value="certifi" />
+          <option value="cffi" />
+          <option value="charset-normalizer" />
+          <option value="click" />
+          <option value="colorama" />
+          <option value="cryptography" />
+          <option value="distro" />
+          <option value="dnspython" />
+          <option value="ecdsa" />
+          <option value="email-validator" />
+          <option value="fastapi" />
+          <option value="gitdb" />
+          <option value="greenlet" />
+          <option value="h11" />
+          <option value="httpcore" />
+          <option value="httptools" />
+          <option value="httpx" />
+          <option value="idna" />
+          <option value="jiter" />
+          <option value="jsonschema" />
+          <option value="jsonschema-specifications" />
+          <option value="narwhals" />
+          <option value="numpy" />
+          <option value="openai" />
+          <option value="packaging" />
+          <option value="pandas" />
+          <option value="passlib" />
+          <option value="pillow" />
+          <option value="plotly" />
+          <option value="protobuf" />
+          <option value="pyarrow" />
+          <option value="pyasn1" />
+          <option value="pycparser" />
+          <option value="pydantic" />
+          <option value="pydantic-settings" />
+          <option value="pydeck" />
+          <option value="python-dateutil" />
+          <option value="python-dotenv" />
+          <option value="python-jose" />
+          <option value="python-multipart" />
+          <option value="pytz" />
+          <option value="redis" />
+          <option value="referencing" />
+          <option value="requests" />
+          <option value="rpds-py" />
+          <option value="rsa" />
+          <option value="six" />
+          <option value="smmap" />
+          <option value="sniffio" />
+          <option value="starlette" />
+          <option value="streamlit" />
+          <option value="tenacity" />
+          <option value="toml" />
+          <option value="tornado" />
+          <option value="tqdm" />
+          <option value="typing-inspection" />
+          <option value="tzdata" />
+          <option value="urllib3" />
+          <option value="uvicorn" />
+          <option value="watchdog" />
+          <option value="watchfiles" />
+          <option value="websockets" />
+          <option value="GitPython" />
+          <option value="Jinja2" />
+          <option value="MarkupSafe" />
+          <option value="pydantic_core" />
+          <option value="PyYAML" />
+          <option value="SQLAlchemy" />
+          <option value="typing_extensions" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyStubPackagesAdvertiser" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="pandas" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
